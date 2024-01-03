@@ -1,0 +1,22 @@
+{
+  "name": "grassactivationService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.13",
+    "@grpc/proto-loader": "^0.7.10",
+    "Babel": "^0.0.1",
+    "https": "^1.0.0",
+    "protobufjs": "^7.2.5",
+    "protocol": "^0.1.4",
+    "react-router-dom": "^6.21.1",
+    "readline-sync": "^1.4.10",
+    "thymeleaf": "^0.22.0"
+  }
+}

@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package grassactivation;
+service grassactivation{
+rpc makegrassactivation(stream grassactivationRequest)returns (stream grassactivationResponse){}
+}
+
+message grasactivationRequest{
+String =username;
+String=password;
+String= Location
+unint32 =tagnumber;
+uint32=number1;
+uint32=number2;
+uint32=result;
+
+}
+
+message grassactivationResponse{
+
+String =username;
+String=password;
+String Location
+unint32 tagnumber;
+uint32=number1;
+uint32=number2;
+uint32=result;
+
+}

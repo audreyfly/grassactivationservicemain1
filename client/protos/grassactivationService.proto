@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package grassactivationService;
+service grassactivationService{
+rpc makegrassactivationService(stream Request)returns (stream Response){}
+}
+
+message  grassactivationServiceRequest{
+String  userName=1;
+String password=2;
+String Location=3;
+String drainage=5;
+
+}
+
+message grassactivationServiceResponse{
+String userName=1;
+String password=2;
+String Location=3;
+String drainage=6;
+
+}
